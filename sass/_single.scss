@@ -1,0 +1,17 @@
+.container-custom {
+margin: 30% auto;
+border-radius: 0.2rem;
+background-color: rgba($charcoal, 50%);
+}
+
+
+
+
+
+
+@media (min-width: 992px) { 
+  .container-custom {
+    margin: 10% auto;
+    }
+    
+}

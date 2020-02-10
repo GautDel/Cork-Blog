@@ -1,0 +1,231 @@
+.bg-charcoal {
+  background-color: #36454f;
+}
+
+.neonGreen {
+  color: #49FFAD;
+}
+
+.navbar-custom {
+  margin-top: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #36454f;
+  padding: 0 12% 0 5%;
+  z-index: 3;
+}
+.navbar-custom .nav-item {
+  margin: 0 2%;
+}
+.navbar-custom .nav-item .nav-link {
+  font-size: 1.1rem;
+  color: #E6FFF4;
+  text-shadow: 0.11rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+  transition: all 0.5s;
+}
+.navbar-custom .nav-item .nav-link:hover {
+  color: #49FFAD !important;
+}
+
+.nav-active {
+  position: relative;
+  color: #49FFAD !important;
+}
+.nav-active::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 10%;
+  border-bottom: 3px solid #49FFAD;
+}
+
+@media (min-width: 992px) {
+  .nav-active::after {
+    left: 13%;
+    height: 100%;
+    width: 52%;
+  }
+}
+.carousel {
+  height: 70vh;
+  margin-top: 10%;
+}
+.carousel .carousel-inner {
+  height: 100%;
+}
+.carousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+.carousel .carousel-inner .carousel-item .view img {
+  height: 100% !important;
+}
+
+.carousel-caption {
+  background-color: rgba(54, 69, 79, 0.95);
+  padding: 3% 1% 0;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+}
+.carousel-caption h3 {
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  color: #49FFAD;
+  font-size: 1.2rem;
+}
+.carousel-caption p {
+  color: #E6FFF4;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 575.98px) {
+  .carousel {
+    height: 49vh !important;
+  }
+  .carousel .carousel-inner {
+    height: 100%;
+  }
+  .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .carousel .carousel-inner .carousel-item img {
+    height: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-caption {
+    padding: 4% 1% 3%;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .carousel-caption h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1%;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    padding: 1.3rem;
+    border-radius: 0.1rem;
+  }
+}
+.card {
+  background-color: #36454f;
+}
+
+.card-img-top {
+  height: 15rem;
+}
+
+.card-title {
+  position: relative;
+  padding-bottom: 7%;
+  margin-bottom: 10%;
+}
+.card-title::after {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  border-bottom: 0.2rem solid #49FFAD;
+}
+
+.btn-custom {
+  border: 0.1rem solid #49FFAD;
+  color: #49FFAD;
+}
+.btn-custom:hover {
+  background-color: #49FFAD;
+  color: #36454f !important;
+}
+
+footer {
+  background-color: #36454f;
+}
+footer .text-left, footer .text-right {
+  font-size: 0.8rem;
+}
+
+.col-custom {
+  padding: 1% 2%;
+  background-color: #36454f;
+}
+.col-custom::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  box-shadow: 0.7rem 0.7rem 1rem rgba(0, 0, 0, 0.2);
+}
+.col-custom img {
+  width: 100%;
+  /* You can set the dimensions to whatever you want */
+  height: 15rem;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .row-custom {
+    margin-bottom: 10% !important;
+  }
+}
+.container-custom {
+  margin: 30% auto;
+  border-radius: 0.2rem;
+  background-color: rgba(54, 69, 79, 0.5);
+}
+
+@media (min-width: 992px) {
+  .container-custom {
+    margin: 10% auto;
+  }
+}
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #515d65;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23c5c5c5' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  color: #E6FFF4;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #49FFAD;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #49FFAD;
+}
+a:hover {
+  color: #7cffc4 !important;
+  text-decoration: none !important;
+}
+
+h2 {
+  margin: 12% 0 5%;
+}
+
+p {
+  margin: 3% 0;
+  letter-spacing: 0.1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

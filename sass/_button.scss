@@ -1,0 +1,9 @@
+.btn-custom {
+  border: 0.1rem solid $neonGreen;
+  color: $neonGreen;
+
+  &:hover {
+    background-color: $neonGreen;
+    color: $charcoal !important;
+  }
+}

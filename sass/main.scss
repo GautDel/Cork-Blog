@@ -1,0 +1,47 @@
+@import "_colors.scss";
+@import "_nav.scss";
+@import "_carousel.scss";
+@import "_card.scss";
+@import "_button.scss";
+@import "_footer.scss";
+@import "_home.scss";
+@import "_single.scss";
+@import "_form.scss";
+@import "_search.scss";
+
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #515d65;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23c5c5c5' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  color: $offWhite;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $neonGreen;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+a {
+  color: $neonGreen;
+  &:hover {
+    color: lighten($neonGreen, 10%) !important;
+    text-decoration: none !important;
+  }
+}
+
+h2 {
+margin: 12% 0 5%;
+}
+
+p {
+  margin: 3% 0;
+  letter-spacing: 0.1rem;
+}
+
+

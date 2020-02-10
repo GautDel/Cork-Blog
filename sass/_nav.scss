@@ -1,0 +1,51 @@
+.navbar-custom {
+  margin-top: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: $charcoal;
+  padding: 0 12% 0 5%;
+  z-index: 3;
+  .nav-item {
+    margin: 0 2%;
+    .nav-link {
+      font-size: 1.1rem;
+      color: $offWhite;
+      text-shadow: 0.11rem 0.1rem 0.5rem rgba(#000, 20%);
+      font-weight: 700;
+      transition: all 0.5s;
+
+      &:hover {
+        color: $neonGreen !important;
+      }
+    } 
+  }
+}
+
+.nav-active {
+  position: relative;
+  color: $neonGreen !important;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10%;
+    border-bottom: 3px solid $neonGreen;
+  }
+}
+
+@media (min-width: 992px) { 
+  .nav-active {
+  
+    &::after {
+      left: 13%;
+      height: 100%;
+      width: 52%;
+    }
+  }
+}
+
